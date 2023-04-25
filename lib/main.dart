@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:task_manager/repo/userRepozitor.dart';
-import 'package:task_manager/startscreen.dart';
+import 'package:task_manager/screens/startscreen.dart';
 import 'bloc/regis_bloc.dart';
 import 'dio_settings.dart';
 

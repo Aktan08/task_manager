@@ -15,6 +15,12 @@ class RegisBloc extends Bloc<RegisEvent, RegisState> {
       if (repo.regis == false) {
         emit(SignIn());
       }
+      if (repo.regis == true && repo.avtor == true) {
+        emit(MainPage());
+      }
+    });
+    on<AddButtonEvent>((event, emit) {
+      emit(MainPage());
     });
   }
   final UserRepo repo;

@@ -6,3 +6,4 @@ abstract class RegisState {}
 class SignIn extends RegisState {}
 class LogIn extends RegisState {}
 class Getstarted extends RegisState{}
+class MainPage extends RegisState{}

@@ -6,6 +6,7 @@ class UserRepo {
 
   UserRepo({required this.dio});
   bool regis = true;
+  bool avtor = true;
 
   Future getproducts() async {}
 }
